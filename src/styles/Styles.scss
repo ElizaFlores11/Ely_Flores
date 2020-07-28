@@ -1,0 +1,84 @@
+@import 'General';
+//@import '../componets/Header/Header'; 
+@font-face{
+    font-family: 'Sanford-0103_demo' ;
+    src: url('./fonts/Sanford-0103_demo.ttf'); 
+}
+body{
+    margin: $margin-body;
+    padding: $padding-body;
+    background-color: $background-body;
+    font-family: $text;
+}
+.content-section{
+    padding: $veinte-pixeles;
+    margin: $auto;
+    width: $ochenta-porciento;
+    height: $cien-porciento;
+    border: $border-white;
+    border-radius: $quince-pixeles;
+    font-family: $text;
+    margin-top: $veinte-pixeles
+}
+.head{
+    width: $cien-porciento;
+    height: $cientotreinta-pixeles; 
+    background-color: $background-header;
+    display: $flex;
+    flex-direction: $row;
+    justify-content: $space-between;
+    img{
+        padding: $quince-pixeles;
+        width: $cien-pixeles;
+        height: $cien-pixeles;
+    }
+}
+.flex{
+    display: $flex;
+    flex-direction: $row;
+    border: $border-home; 
+}
+.img-start{
+    padding: $treinta-pixeles;
+    width: $cincuenta-porciento;
+    justify-content: flex-start;
+    text-align: $center;
+}
+.img-start img{
+    width: 350px;
+}
+.descripcion{
+    width: $cincuenta-porciento;
+    justify-content: flex-end;
+    text-align: $center;
+    padding: $veinte-pixeles;
+    margin-top: $cien-pixeles;
+    font-size: 25px;
+}
+.proyect{
+    display: flex; 
+    justify-content: space-between;
+    flex-direction: row;
+}
+.descripcion-proyect{
+    width: 320px; 
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid hsla(213, 49%, 65%, 0.849);
+    background-color: hsla(48, 91%, 83%, 0.356)  ;
+    height: 300px;
+}
+.descripcion-proyect h2{
+    text-align: center;
+}
+.descripcion-proyect p{
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 0px;
+    padding: 15px;
+    height: 150px;
+}
+.links{
+    padding: 15px;
+    text-align: justify;
+}
