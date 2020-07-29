@@ -27,21 +27,29 @@ body{
     display: $flex;
     flex-direction: $row;
     justify-content: $space-between;
-    img{
-        padding: $quince-pixeles;
+}
+.img-head{
+        padding: $veinte-pixeles;
         width: $cien-pixeles;
         height: $cien-pixeles;
-    }
 }
 .flex{
     display: $flex;
     flex-direction: $row;
     border: $border-home; 
 }
+.head-flex{
+    display: $flex;
+    flex-direction: $row;
+}
+.flex-width{
+    width: 25%;
+    padding: $veinte-pixeles;
+}
 .img-start{
     padding: $treinta-pixeles;
     width: $cincuenta-porciento;
-    justify-content: flex-start;
+    justify-content: $flex-start;
     text-align: $center;
 }
 .img-start img{
@@ -49,36 +57,102 @@ body{
 }
 .descripcion{
     width: $cincuenta-porciento;
-    justify-content: flex-end;
+    justify-content: $flex-end;
     text-align: $center;
     padding: $veinte-pixeles;
     margin-top: $cien-pixeles;
-    font-size: 25px;
+    font-size: $veinticinco-pixeles; 
 }
 .proyect{
-    display: flex; 
-    justify-content: space-between;
-    flex-direction: row;
+    display: $flex; 
+    justify-content: $space-between;
+    flex-direction: $row;
 }
 .descripcion-proyect{
     width: 320px; 
     border-radius: 10px;
-    padding: 20px;
-    border: 1px solid hsla(213, 49%, 65%, 0.849);
-    background-color: hsla(48, 91%, 83%, 0.356)  ;
-    height: 300px;
+    padding: $veinte-pixeles;
+    border: $border-azul;
+    background-color: $color-crema ;
+    height: 400px;
 }
 .descripcion-proyect h2{
-    text-align: center;
+    text-align: $center;
 }
 .descripcion-proyect p{
-    text-align: justify;
-    font-size: 20px;
-    margin-left: 0px;
-    padding: 15px;
-    height: 150px;
+    text-align: $justify;
+    font-size: $veinte-pixeles;
+    margin-left: $cero;
+    padding: $quince-pixeles;
+    height: $cien-pixeles;
 }
 .links{
-    padding: 15px;
-    text-align: justify;
+    padding: $quince-pixeles;
+    text-align: $justify;
+    text-decoration: $none;
+    color: black; 
+}
+.skill{
+    padding: $cincuenta-pixeles;
+    width: $ochenta-porciento;
+    text-align: $center;
+    justify-content: $center;
+}
+.h2-Tech{
+    margin-top: $menos-top;
+    text-align: $center;
+}
+.descripcion-skill{
+    width: 320px; 
+    border-radius: 10px;
+    padding: $veinte-pixeles;
+    border: $border-azul;
+    background-color: $color-crema ;
+    height: 300px;
+}
+.descripcion-skill h2{
+    text-align: $center;
+}
+.descripcion-skill p{
+    text-align: $justify;
+    font-size: $veinte-pixeles;
+    margin-left: $cero;
+    padding: $quince-pixeles;
+    height: $cien-pixeles;
+}
+
+.img-skills{
+    width: $cien-pixeles;
+    border-radius: $dos-cincuenta-pixeles;
+}
+.img-skills:hover{
+    transform: $rotate;
+    -webkit-transform: $rotate; // IE 9
+    -moz-transform: $rotate; // Firefox
+    -o-transform: $rotate; // Safari and Chrome
+    -ms-transform: $rotate; // Opera
+    }
+.btn-view{
+    background-color:transparent ;
+    width: $cientotreinta-pixeles;
+    height: $cincuenta-pixeles;
+    font-size: $veinte-pixeles;
+    border: $border-azul;
+    border-radius: 5px; 
+}
+.btn-view:hover{
+    background-color: black;
+    color: white;
+}
+.icon{
+    width: 200px;
+}
+.top{
+    margin-top: -100px;
+    margin-left: 300px; 
+}
+.img-project{
+    width: 180pz; 
+    height: $cientotreinta-pixeles;
+    margin-left: $cincuenta-pixeles
 }
