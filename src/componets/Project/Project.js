@@ -3,6 +3,7 @@ import Burguer from '../../img/Burguer.png';
 
 import TripLife from '../../img/TripLife.png';
 import Rick from '../../img/Rick.png';
+import Violence from '../../img/violence.png';
 
 const Project = () =>{
     /*<div className="proyect">
@@ -73,7 +74,13 @@ const Project = () =>{
                 <h2>BULLYING SCHOOL </h2>
                 <p>Se utiliza para enviar mensaje ocultos a los profesores, cuando los estudiantes 
                     son amenazados y tienen miedo de expresarlo a un profesor o tutor.</p>
-                 <a href="https://github.com/ElizaFlores11/CDMX009-cipher" target="_black"  class="links">Repositorio</a>
+                    <br/>
+                    <img
+                        src={Violence}
+                        alt="Ely flores"
+                        className="img-project"
+                        />
+                    <a href="https://github.com/ElizaFlores11/CDMX009-cipher" target="_black"  class="links">Repositorio</a>
                 <a href="https://elizaflores11.github.io/CDMX009-cipher/"  target="_black" class="links">Demo</a>
             </div>
             
