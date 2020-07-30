@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9b27c18ae4933ca21413b3a84f826fff",
+    "revision": "6eddbecb11072a3b074d10d7e50047cf",
     "url": "/Ely_Flores/index.html"
   },
   {
-    "revision": "e854227d58d055a4f6b0",
-    "url": "/Ely_Flores/static/css/main.a9e62db5.chunk.css"
+    "revision": "07e1b6ee49fe112328dd",
+    "url": "/Ely_Flores/static/css/main.966f5820.chunk.css"
   },
   {
     "revision": "fe2ce23bb55b3dec1559",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Ely_Flores/static/js/2.e3263c36.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e854227d58d055a4f6b0",
-    "url": "/Ely_Flores/static/js/main.e891e773.chunk.js"
+    "revision": "07e1b6ee49fe112328dd",
+    "url": "/Ely_Flores/static/js/main.310b9743.chunk.js"
   },
   {
     "revision": "b86f15cc9c3dbd92a56d",
