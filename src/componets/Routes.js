@@ -1,9 +1,9 @@
 import React from 'react'
 import { Switch, Route } from "react-router-dom";
-import Home from './Home/Home';
-import Soft from './Soft/Soft';
-import Tech from './Tech/Tech';
 import Project from './Project/Project';
+import Tech from './Tech/Tech';
+import Soft from './Soft/Soft';
+import Home from './Home/Home';
 
 const Routes = () => {
 

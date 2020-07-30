@@ -1,8 +1,12 @@
-import React from 'react'; 
+import React, {Fragment} from 'react'; 
 import bicicleta from "../../img/bicicleta.png";
+import { BrowserRouter } from 'react-router-dom';
 
 const Home = () =>{
 return (
+    //<BrowserRouter>
+    <Fragment>
+        
     <div className="content-section">
         <div className="flex">
         <div className="img-start" >
@@ -20,6 +24,8 @@ return (
         </div>
     </div>
     </div>
+    </Fragment>
+    //</BrowserRouter
 )
 }
 export default Home; 
