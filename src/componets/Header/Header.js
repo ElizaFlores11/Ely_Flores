@@ -1,6 +1,6 @@
 import React from 'react'; 
 import { Link } from "react-router-dom";
-import Logo from '../../img/Logo.png';
+import Logo from '../../img/elyflores.jpg';
 
 const Header = () =>{
  return (
@@ -13,10 +13,10 @@ const Header = () =>{
             />
         <div className="top">
             <a href="https://www.linkedin.com/in/elyfloresg/" target="_black" class="links">
-                <i class="fa fa-linkedin-square fa-2x"></i>
+                <i class="fa fa-linkedin-square fa-3x"></i>
             </a>       
             <a href="https://github.com/ElizaFlores11" target="_black" class="links">
-                <i class="fa fa-github-square fa-2x"></i>
+                <i class="fa fa-github-square fa-3x"></i>
             </a>
         </div>
         </div>
