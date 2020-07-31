@@ -1,4 +1,5 @@
-import React from "react"; 
+import React, {Fragment} from 'react'; 
+import Header from '../Header/Header'; 
 import Html from '../../img/html5.png'; 
 import Css from '../../img/css3.png'; 
 import JavaScript from '../../img/JavaScrip.png'; 
@@ -7,6 +8,8 @@ import Figma from '../../img/Figma.png';
 import ImgReact from '../../img/logo192.png';
 const Tech = () =>{
     return (
+        <Fragment>
+        <Header />
         <div className="content-section">
             <br/>
             <div className="proyect">
@@ -75,6 +78,7 @@ const Tech = () =>{
             </div>
             <br/>
         </div>
+        </Fragment>
     )
 }
 export default Tech; 

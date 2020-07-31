@@ -1,10 +1,11 @@
 import React, {Fragment} from 'react'; 
+import Header from '../Header/Header'; 
 import bicicleta from "../../img/bicicleta.png";
 
 const Home = () =>{
 return (
     <Fragment>
-        
+    <Header />
     <div className="content-section">
         <div className="flex">
         <div className="img-start" >

@@ -1,6 +1,7 @@
-import React from 'react'; 
-import Burguer from '../../img/Burguer.png';
+import React, {Fragment} from 'react'; 
+import Header from '../Header/Header'; 
 
+import Burguer from '../../img/Burguer.png';
 import TripLife from '../../img/TripLife.png';
 import Rick from '../../img/Rick.png';
 import Violence from '../../img/violence.png';
@@ -24,6 +25,8 @@ const Project = () =>{
             </div>
         </div>*/
     return (
+        <Fragment>
+        <Header />
         <div className="content-section">
             <div className="proyect">
                 <div className="descripcion-proyect">  
@@ -87,6 +90,7 @@ const Project = () =>{
             </div>
             <br/><br/>
             </div>
+            </Fragment>
     )
 }; 
 export default Project; 

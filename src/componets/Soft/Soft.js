@@ -1,7 +1,10 @@
-import React from "react"; 
+import React, {Fragment} from 'react'; 
+import Header from '../Header/Header'; 
 
 const Soft = () =>{
     return(
+        <Fragment>
+        <Header />
         <div className="content-section">
             <br/>
             <div className="proyect">
@@ -44,6 +47,7 @@ const Soft = () =>{
             </div>
         </div>
     </div>
+    </Fragment>
     )
 }
 export default Soft; 
