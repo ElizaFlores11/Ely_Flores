@@ -22,7 +22,7 @@ const Header = () =>{
         </div>
         <div className="head-flex">
             <div className="flex-width">
-                <Link to="/">
+                <Link to="/home">
                     <button className="btn-view">Inicio</button>
                 </Link>
             </div>

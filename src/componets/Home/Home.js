@@ -1,10 +1,8 @@
 import React, {Fragment} from 'react'; 
 import bicicleta from "../../img/bicicleta.png";
-import { BrowserRouter } from 'react-router-dom';
 
 const Home = () =>{
 return (
-    //<BrowserRouter>
     <Fragment>
         
     <div className="content-section">
@@ -25,7 +23,6 @@ return (
     </div>
     </div>
     </Fragment>
-    //</BrowserRouter
 )
 }
 export default Home; 
