@@ -4,7 +4,7 @@ import Logo from '../../img/elyflores.jpg';
 
 const Header = () =>{
  return (
-     <header className="head" >
+     <header className="flex head" >
        <div>
         <img 
             src={Logo} 

@@ -13,10 +13,10 @@ return (
             src={bicicleta}
             alt="Ely"
         />
-        <h1>Front-End Developer</h1>
+        <h1>Ely Flores</h1>
         </div>
         <div className="descripcion">
-            <h4>Ely Flores</h4>
+            <h4> Front-End Developer</h4>
             <p>Búsqueda de nuevos retos en el ámbito de TI. </p>
             <p>Apasionada por crear código y diseño web. </p> 
             <p>Capaz de adaptarme a las circunstancias y dar lo mejor de mí.</p>

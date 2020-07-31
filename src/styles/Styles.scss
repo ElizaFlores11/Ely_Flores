@@ -30,9 +30,12 @@ body{
 }
 .img-head{
         padding: $veinte-pixeles;
-        width: 100px;
-        height: 100px;
+        width: $cincuenta-porciento;
+        height: $cien-pixeles;
         border-radius: 150px;
+}
+.img-head{
+    width: $cien-pixeles;
 }
 .flex{
     display: $flex;
@@ -41,9 +44,10 @@ body{
 .head-flex{
     display: $flex;
     flex-direction: $row;
+    width: $cincuenta-porciento;
 }
 .flex-width{
-    width: 25%;
+    width: $veinticinco-porciento;
     padding: $veinte-pixeles;
 }
 .img-start{
@@ -53,7 +57,7 @@ body{
     text-align: $center;
 }
 .img-start img{
-    width: 350px;
+    width: $tres-cincuenta-pixeles;
 }
 .descripcion{
     width: $cincuenta-porciento;
@@ -70,7 +74,7 @@ body{
 }
 .descripcion-proyect{
     width: 320px; 
-    border-radius: 10px;
+    border-radius: $diez-pixeles;;
     padding: $veinte-pixeles;
     border: $border-azul;
     background-color: $color-crema ;
@@ -90,7 +94,7 @@ body{
     padding: $quince-pixeles;
     text-align: $justify;
     text-decoration: $none;
-    color: black; 
+    color: $black; 
 }
 .skill{
     padding: $cincuenta-pixeles;
@@ -104,7 +108,7 @@ body{
 }
 .descripcion-skill{
     width: 320px; 
-    border-radius: 10px;
+    border-radius: $diez-pixeles;
     padding: $veinte-pixeles;
     border: $border-azul;
     background-color: $color-crema ;
@@ -141,7 +145,7 @@ body{
     border-radius: 5px; 
 }
 .btn-view:hover{
-    background-color: black;
+    background-color: $black;
     color: white;
 }
 .icon{
@@ -152,7 +156,48 @@ body{
     margin-left: 300px; 
 }
 .img-project{
-    width: 180pz; 
+    width: 180px; 
     height: $cientotreinta-pixeles;
     margin-left: $cincuenta-pixeles
 }
+
+@media screen and (max-width: $break-large) {
+    .proyect{
+        flex-wrap: $wrap ;
+    }
+    .descripcion-skill{
+        flex-wrap: $wrap;
+    }
+    .descripcion{
+        flex-wrap: $wrap;
+        margin-top: -80px;
+        width: $cien-porciento;
+    
+    }
+    .flex{
+        flex-wrap: $wrap;
+    }
+    .top{
+        margin-top: -120px;  
+    }
+    .img-start{
+        padding: $cero;
+        width: $cien-porciento;
+        text-align-last: $center
+    }
+    .img-start img{
+        width: 250px;
+    }
+    .head-flex{
+        width: $cien-porciento;
+        padding: $cero;
+    }
+    .head{
+        height: 200px;
+    }
+    .btn-view{
+        width: 80px;
+        font-size: $quince-pixeles;
+        height: $treinta-pixeles;
+    }
+     }
