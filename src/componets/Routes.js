@@ -19,7 +19,7 @@ const Routes = () => {
             <Route exact path="/soft"  >
                 <Soft/>
             </Route>
-            <Route exact path="/home">
+            <Route  path="/">
                 <Home />
             </Route>
         </Switch>
