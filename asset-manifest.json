@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Ely_Flores/static/css/main.966f5820.chunk.css",
-    "main.js": "/Ely_Flores/static/js/main.3cc68beb.chunk.js",
-    "main.js.map": "/Ely_Flores/static/js/main.3cc68beb.chunk.js.map",
+    "main.css": "/Ely_Flores/static/css/main.07849b89.chunk.css",
+    "main.js": "/Ely_Flores/static/js/main.51b1e9be.chunk.js",
+    "main.js.map": "/Ely_Flores/static/js/main.51b1e9be.chunk.js.map",
     "runtime-main.js": "/Ely_Flores/static/js/runtime-main.4ab653be.js",
     "runtime-main.js.map": "/Ely_Flores/static/js/runtime-main.4ab653be.js.map",
     "static/js/2.e3263c36.chunk.js": "/Ely_Flores/static/js/2.e3263c36.chunk.js",
     "static/js/2.e3263c36.chunk.js.map": "/Ely_Flores/static/js/2.e3263c36.chunk.js.map",
     "index.html": "/Ely_Flores/index.html",
-    "precache-manifest.549fb3fc1ba0d2dac8f2bf675b24bfea.js": "/Ely_Flores/precache-manifest.549fb3fc1ba0d2dac8f2bf675b24bfea.js",
+    "precache-manifest.f48be2e5ef480a8aa4ebafbd661c571e.js": "/Ely_Flores/precache-manifest.f48be2e5ef480a8aa4ebafbd661c571e.js",
     "service-worker.js": "/Ely_Flores/service-worker.js",
-    "static/css/main.966f5820.chunk.css.map": "/Ely_Flores/static/css/main.966f5820.chunk.css.map",
+    "static/css/main.07849b89.chunk.css.map": "/Ely_Flores/static/css/main.07849b89.chunk.css.map",
     "static/js/2.e3263c36.chunk.js.LICENSE.txt": "/Ely_Flores/static/js/2.e3263c36.chunk.js.LICENSE.txt",
     "static/media/Burguer.png": "/Ely_Flores/static/media/Burguer.303cd5c4.png",
     "static/media/Rick.png": "/Ely_Flores/static/media/Rick.04155e6b.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.4ab653be.js",
     "static/js/2.e3263c36.chunk.js",
-    "static/css/main.966f5820.chunk.css",
-    "static/js/main.3cc68beb.chunk.js"
+    "static/css/main.07849b89.chunk.css",
+    "static/js/main.51b1e9be.chunk.js"
   ]
 }

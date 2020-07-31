@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Ely_Flores/precache-manifest.549fb3fc1ba0d2dac8f2bf675b24bfea.js"
+  "/Ely_Flores/precache-manifest.f48be2e5ef480a8aa4ebafbd661c571e.js"
 );
 
 self.addEventListener('message', (event) => {
