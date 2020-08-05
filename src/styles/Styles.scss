@@ -32,10 +32,10 @@ body{
         padding: $veinte-pixeles;
         width: $cincuenta-porciento;
         height: $cien-pixeles;
-        border-radius: 150px;
+        border-radius: $cincuenta-pixeles;
 }
 .img-head{
-    width: $cien-pixeles;
+    width: $cientotreinta-pixeles;
 }
 .flex{
     display: $flex;

@@ -1,9 +1,9 @@
 import React from 'react'; 
 import { Link } from "react-router-dom";
-import Logo from '../../img/elyflores.jpg';
+import Logo from '../../img/ElyFloresFE.jpg';
 
 const Header = () =>{
- return (
+ return ( 
      <header className="flex head" >
        <div>
         <img 
