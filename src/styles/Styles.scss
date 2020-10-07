@@ -4,12 +4,6 @@
     font-family: 'Sanford-0103_demo' ;
     src: url('./fonts/Sanford-0103_demo.ttf'); 
 }
-body{
-    margin: $margin-body;
-    padding: $padding-body;
-    background-color: $background-body;
-    font-family: $text;
-}
 .content-section{
     padding: $veinte-pixeles;
     margin: $auto;
@@ -18,7 +12,8 @@ body{
     border: $border-white;
     border-radius: $quince-pixeles;
     font-family: $text;
-    margin-top: $veinte-pixeles
+    margin-top: -150px;
+    margin-left: 220px;
 }
 .head{
     width: $cien-porciento;
@@ -73,7 +68,7 @@ body{
     flex-direction: $row;
 }
 .descripcion-proyect{
-    width: 320px; 
+    width: 520px; 
     border-radius: $diez-pixeles;;
     padding: $veinte-pixeles;
     border: $border-azul;
@@ -112,14 +107,14 @@ body{
     padding: $veinte-pixeles;
     border: $border-azul;
     background-color: $color-crema ;
-    height: 300px;
+    height: 350px;
 }
 .descripcion-skill h2{
     text-align: $center;
 }
 .descripcion-skill p{
     text-align: $justify;
-    font-size: $veinte-pixeles;
+    font-size: 20px;
     margin-left: $cero;
     padding: $quince-pixeles;
     height: $cien-pixeles;
@@ -128,6 +123,8 @@ body{
 .img-skills{
     width: $cien-pixeles;
     border-radius: $dos-cincuenta-pixeles;
+    //padding-left: 30px;
+    margin-left: 90px;
 }
 .img-skills:hover{
     transform: $rotate;
@@ -152,8 +149,7 @@ body{
     width: 200px;
 }
 .top{
-    margin-top: -100px;
-    margin-left: 300px; 
+    margin-top:'40px';  
 }
 .img-project{
     width: 180px; 
@@ -177,9 +173,6 @@ body{
     .flex{
         flex-wrap: $wrap;
     }
-    .top{
-        margin-top: -120px;  
-    }
     .img-start{
         padding: $cero;
         width: $cien-porciento;
@@ -200,4 +193,38 @@ body{
         font-size: $quince-pixeles;
         height: $treinta-pixeles;
     }
+    .descripcion-skill p{
+        font-size: 15px;
+        }
+        .content-section{
+            margin-top: 0px;
+            margin-left: 50px;
+        }
+        .descripcion-proyect p{
+        font-size: 15px;
+        }
+        .descripcion-proyect img{
+         width: 100px;
+         height: 100px;
+         margin-top: 30px;
+            }
+        .h2-Tech{
+            margin-left: 70px;
+        }
      }
+
+     
+
+     .components-layout-demo-responsive .logo {
+        height: 32px;
+        background: rgba(255, 255, 255, 0.2);
+        margin: 16px;
+      }
+      
+      .color {
+        background: transparent;
+      }
+      
+      .site-layout-background {
+        background: blue;
+      }
