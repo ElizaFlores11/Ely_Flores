@@ -1,28 +1,31 @@
 {
   "files": {
-    "main.css": "/Ely_Flores/static/css/main.affb2ffa.chunk.css",
-    "main.js": "/Ely_Flores/static/js/main.e67718fc.chunk.js",
-    "main.js.map": "/Ely_Flores/static/js/main.e67718fc.chunk.js.map",
+    "main.css": "/Ely_Flores/static/css/main.a9b9a990.chunk.css",
+    "main.js": "/Ely_Flores/static/js/main.565974f3.chunk.js",
+    "main.js.map": "/Ely_Flores/static/js/main.565974f3.chunk.js.map",
     "runtime-main.js": "/Ely_Flores/static/js/runtime-main.4ab653be.js",
     "runtime-main.js.map": "/Ely_Flores/static/js/runtime-main.4ab653be.js.map",
-    "static/js/2.e3263c36.chunk.js": "/Ely_Flores/static/js/2.e3263c36.chunk.js",
-    "static/js/2.e3263c36.chunk.js.map": "/Ely_Flores/static/js/2.e3263c36.chunk.js.map",
+    "static/css/2.99a5358a.chunk.css": "/Ely_Flores/static/css/2.99a5358a.chunk.css",
+    "static/js/2.d1faf811.chunk.js": "/Ely_Flores/static/js/2.d1faf811.chunk.js",
+    "static/js/2.d1faf811.chunk.js.map": "/Ely_Flores/static/js/2.d1faf811.chunk.js.map",
     "index.html": "/Ely_Flores/index.html",
-    "precache-manifest.4120fd0d0be5b6512792a2179c14683b.js": "/Ely_Flores/precache-manifest.4120fd0d0be5b6512792a2179c14683b.js",
+    "precache-manifest.79b2a0e271b5b60aa08ad24017ee7c2f.js": "/Ely_Flores/precache-manifest.79b2a0e271b5b60aa08ad24017ee7c2f.js",
     "service-worker.js": "/Ely_Flores/service-worker.js",
-    "static/css/main.affb2ffa.chunk.css.map": "/Ely_Flores/static/css/main.affb2ffa.chunk.css.map",
-    "static/js/2.e3263c36.chunk.js.LICENSE.txt": "/Ely_Flores/static/js/2.e3263c36.chunk.js.LICENSE.txt",
+    "static/css/2.99a5358a.chunk.css.map": "/Ely_Flores/static/css/2.99a5358a.chunk.css.map",
+    "static/css/main.a9b9a990.chunk.css.map": "/Ely_Flores/static/css/main.a9b9a990.chunk.css.map",
+    "static/js/2.d1faf811.chunk.js.LICENSE.txt": "/Ely_Flores/static/js/2.d1faf811.chunk.js.LICENSE.txt",
     "static/media/Burguer.png": "/Ely_Flores/static/media/Burguer.303cd5c4.png",
     "static/media/Rick.png": "/Ely_Flores/static/media/Rick.04155e6b.png",
-    "static/media/Styles.scss": "/Ely_Flores/static/media/Sanford-0103_demo.a67b6412.ttf",
+    "static/media/estilos.scss": "/Ely_Flores/static/media/bg.efa83c95.jpg",
     "static/media/TripLife.png": "/Ely_Flores/static/media/TripLife.6b0e57d4.png",
-    "static/media/bicicleta.png": "/Ely_Flores/static/media/bicicleta.76af6f34.png",
+    "static/media/duplicado.png": "/Ely_Flores/static/media/duplicado.45859434.png",
     "static/media/violence.png": "/Ely_Flores/static/media/violence.43b2bd8f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4ab653be.js",
-    "static/js/2.e3263c36.chunk.js",
-    "static/css/main.affb2ffa.chunk.css",
-    "static/js/main.e67718fc.chunk.js"
+    "static/css/2.99a5358a.chunk.css",
+    "static/js/2.d1faf811.chunk.js",
+    "static/css/main.a9b9a990.chunk.css",
+    "static/js/main.565974f3.chunk.js"
   ]
 }

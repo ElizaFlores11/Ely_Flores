@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "92da3807dc112c9240661f93747f7d66",
+    "revision": "04ada5be26fdcc51e2c6a758c8a6f632",
     "url": "/Ely_Flores/index.html"
   },
   {
-    "revision": "ec2833e28f37132e5bc6",
-    "url": "/Ely_Flores/static/css/main.affb2ffa.chunk.css"
+    "revision": "98c26ff013893a9621cd",
+    "url": "/Ely_Flores/static/css/2.99a5358a.chunk.css"
   },
   {
-    "revision": "fe2ce23bb55b3dec1559",
-    "url": "/Ely_Flores/static/js/2.e3263c36.chunk.js"
+    "revision": "19f31b6efe63fc2e8bd1",
+    "url": "/Ely_Flores/static/css/main.a9b9a990.chunk.css"
   },
   {
-    "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/Ely_Flores/static/js/2.e3263c36.chunk.js.LICENSE.txt"
+    "revision": "98c26ff013893a9621cd",
+    "url": "/Ely_Flores/static/js/2.d1faf811.chunk.js"
   },
   {
-    "revision": "ec2833e28f37132e5bc6",
-    "url": "/Ely_Flores/static/js/main.e67718fc.chunk.js"
+    "revision": "3453b8997016469371284a28c0e873e2",
+    "url": "/Ely_Flores/static/js/2.d1faf811.chunk.js.LICENSE.txt"
+  },
+  {
+    "revision": "19f31b6efe63fc2e8bd1",
+    "url": "/Ely_Flores/static/js/main.565974f3.chunk.js"
   },
   {
     "revision": "b86f15cc9c3dbd92a56d",
@@ -40,8 +44,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Ely_Flores/static/media/TripLife.6b0e57d4.png"
   },
   {
-    "revision": "76af6f346e8c2cb1b1415ecc813c9be8",
-    "url": "/Ely_Flores/static/media/bicicleta.76af6f34.png"
+    "revision": "efa83c958b082bb4e3b6b5b33c9957ed",
+    "url": "/Ely_Flores/static/media/bg.efa83c95.jpg"
+  },
+  {
+    "revision": "45859434126cf8a0b96b16b9768f7183",
+    "url": "/Ely_Flores/static/media/duplicado.45859434.png"
   },
   {
     "revision": "43b2bd8f21abdd5dda6a0ffca73129ee",
