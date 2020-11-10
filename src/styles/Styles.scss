@@ -4,227 +4,85 @@
     font-family: 'Sanford-0103_demo' ;
     src: url('./fonts/Sanford-0103_demo.ttf'); 
 }
-.content-section{
-    padding: $veinte-pixeles;
-    margin: $auto;
-    width: $ochenta-porciento;
-    height: $cien-porciento;
-    border: $border-white;
-    border-radius: $quince-pixeles;
-    font-family: $text;
-    margin-top: -150px;
-    margin-left: 220px;
-}
-.head{
-    width: $cien-porciento;
-    height: $cientotreinta-pixeles; 
-    background-color: $background-header;
-    display: $flex;
-    flex-direction: $row;
-    justify-content: $space-between;
-}
-.img-head{
-        padding: $veinte-pixeles;
-        width: $cincuenta-porciento;
-        height: $cien-pixeles;
-        border-radius: $cincuenta-pixeles;
-}
-.img-head{
-    width: $cientotreinta-pixeles;
-}
-.flex{
-    display: $flex;
-    flex-direction: $row;
-}
-.head-flex{
-    display: $flex;
-    flex-direction: $row;
-    width: $cincuenta-porciento;
-}
-.flex-width{
-    width: $veinticinco-porciento;
-    padding: $veinte-pixeles;
-}
-.img-start{
-    padding: $treinta-pixeles;
-    width: $cincuenta-porciento;
-    justify-content: $flex-start;
-    text-align: $center;
-}
-.img-start img{
-    width: $tres-cincuenta-pixeles;
-}
-.descripcion{
-    width: $cincuenta-porciento;
-    justify-content: $flex-end;
-    text-align: $center;
-    padding: $veinte-pixeles;
-    margin-top: $cien-pixeles;
-    font-size: $veinticinco-pixeles; 
-}
-.proyect{
-    display: $flex; 
-    justify-content: $space-between;
-    flex-direction: $row;
-}
-.descripcion-proyect{
-    width: 520px; 
-    border-radius: $diez-pixeles;;
-    padding: $veinte-pixeles;
-    border: $border-azul;
-    background-color: $color-crema ;
-    height: 400px;
-}
-.descripcion-proyect h2{
-    text-align: $center;
-}
-.descripcion-proyect p{
-    text-align: $justify;
-    font-size: $veinte-pixeles;
-    margin-left: $cero;
-    padding: $quince-pixeles;
-    height: $cien-pixeles;
-}
 .links{
     padding: $quince-pixeles;
     text-align: $justify;
     text-decoration: $none;
     color: $black; 
-}
-.skill{
-    padding: $cincuenta-pixeles;
-    width: $ochenta-porciento;
-    text-align: $center;
-    justify-content: $center;
-}
-.h2-Tech{
-    margin-top: $menos-top;
-    text-align: $center;
-}
-.descripcion-skill{
-    width: 320px; 
-    border-radius: $diez-pixeles;
-    padding: $veinte-pixeles;
-    border: $border-azul;
-    background-color: $color-crema ;
-    height: 350px;
-}
-.descripcion-skill h2{
-    text-align: $center;
-}
-.descripcion-skill p{
-    text-align: $justify;
+    font-family: 'Sanford-0103_demo';
+    font-weight: bold;
     font-size: 20px;
-    margin-left: $cero;
-    padding: $quince-pixeles;
-    height: $cien-pixeles;
 }
 
-.img-skills{
-    width: $cien-pixeles;
-    border-radius: $dos-cincuenta-pixeles;
-    //padding-left: 30px;
-    margin-left: 90px;
+
+.wrap{
+    width: '1100px';
+    margin: 50px auto; 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-.img-skills:hover{
-    transform: $rotate;
-    -webkit-transform: $rotate; // IE 9
-    -moz-transform: $rotate; // Firefox
-    -o-transform: $rotate; // Safari and Chrome
-    -ms-transform: $rotate; // Opera
-    }
-.btn-view{
-    background-color:transparent ;
-    width: $cientotreinta-pixeles;
-    height: $cincuenta-pixeles;
-    font-size: $veinte-pixeles;
-    border: $border-azul;
-    border-radius: 5px; 
+.tarjeta-wrap{
+    margin: 10px;
+    -webkit-perspective: 700;
+    perspective: 700;
 }
-.btn-view:hover{
-    background-color: $black;
-    color: white;
+.tarjeta{
+    width: 400px;
+    height: 250px;
+    background-color: rebeccapurple;
+    transform-style: preserve-3d;
+    transition: .7s ease;
+    border-radius: 20px;
+    
 }
-.icon{
-    width: 200px;
+.adelante, .atras{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
-.top{
-    margin-top:'40px';  
+.atras{
+    transform: rotateY(180deg);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: medium;
 }
-.img-project{
-    width: 180px; 
-    height: $cientotreinta-pixeles;
-    margin-left: $cincuenta-pixeles
+.tarjeta-wrap:hover .tarjeta{
+    transform: rotateY(180deg);
+}
+.card1{
+    background-image: url('../img/Project/walmart.png');
+    background-size: cover;
+}
+ 
+ .card2{
+    background-image: url('../img/Project/burguer.png');
+    background-size: cover;
+}
+.card3{
+    background-image: url('../img/Project/triplife.png');
+    background-size: cover;
+}
+.card4{
+    background-image: url('../img/Project/rick&morty.png');
+    background-size: cover;
+}
+.card5{
+    background-image: url('../img/Project/bullying.png');
+    background-size: cover;
 }
 
-@media screen and (max-width: $break-large) {
-    .proyect{
-        flex-wrap: $wrap ;
+@media screen and (max-width: 736px) {
+    .wrap{
+        flex-direction: row;
     }
-    .descripcion-skill{
-        flex-wrap: $wrap;
-    }
-    .descripcion{
-        flex-wrap: $wrap;
-        margin-top: -80px;
-        width: $cien-porciento;
     
     }
-    .flex{
-        flex-wrap: $wrap;
-    }
-    .img-start{
-        padding: $cero;
-        width: $cien-porciento;
-        text-align-last: $center
-    }
-    .img-start img{
-        width: 250px;
-    }
-    .head-flex{
-        width: $cien-porciento;
-        padding: $cero;
-    }
-    .head{
-        height: 200px;
-    }
-    .btn-view{
-        width: 80px;
-        font-size: $quince-pixeles;
-        height: $treinta-pixeles;
-    }
-    .descripcion-skill p{
-        font-size: 15px;
-        }
-        .content-section{
-            margin-top: 0px;
-            margin-left: 50px;
-        }
-        .descripcion-proyect p{
-        font-size: 15px;
-        }
-        .descripcion-proyect img{
-         width: 100px;
-         height: 100px;
-         margin-top: 30px;
-            }
-        .h2-Tech{
-            margin-left: 70px;
-        }
-     }
-
-     
-
-     .components-layout-demo-responsive .logo {
-        height: 32px;
-        background: rgba(255, 255, 255, 0.2);
-        margin: 16px;
-      }
-      
-      .color {
-        background: transparent;
-      }
-      
-      .site-layout-background {
-        background: blue;
-      }
