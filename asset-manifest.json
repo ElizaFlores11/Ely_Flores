@@ -1,27 +1,32 @@
 {
   "files": {
-    "main.css": "/Ely_Flores/static/css/main.373fdd78.chunk.css",
-    "main.js": "/Ely_Flores/static/js/main.2737d07d.chunk.js",
-    "main.js.map": "/Ely_Flores/static/js/main.2737d07d.chunk.js.map",
+    "main.css": "/Ely_Flores/static/css/main.057eb596.chunk.css",
+    "main.js": "/Ely_Flores/static/js/main.8c3c5fa7.chunk.js",
+    "main.js.map": "/Ely_Flores/static/js/main.8c3c5fa7.chunk.js.map",
     "runtime-main.js": "/Ely_Flores/static/js/runtime-main.4ab653be.js",
     "runtime-main.js.map": "/Ely_Flores/static/js/runtime-main.4ab653be.js.map",
     "static/css/2.99a5358a.chunk.css": "/Ely_Flores/static/css/2.99a5358a.chunk.css",
-    "static/js/2.fe747f7f.chunk.js": "/Ely_Flores/static/js/2.fe747f7f.chunk.js",
-    "static/js/2.fe747f7f.chunk.js.map": "/Ely_Flores/static/js/2.fe747f7f.chunk.js.map",
+    "static/js/2.33c9f323.chunk.js": "/Ely_Flores/static/js/2.33c9f323.chunk.js",
+    "static/js/2.33c9f323.chunk.js.map": "/Ely_Flores/static/js/2.33c9f323.chunk.js.map",
     "index.html": "/Ely_Flores/index.html",
-    "precache-manifest.6daa715ee5c92249d383e1c393587f56.js": "/Ely_Flores/precache-manifest.6daa715ee5c92249d383e1c393587f56.js",
+    "precache-manifest.ba52a44ba35ad6a6b12911859e0bbd33.js": "/Ely_Flores/precache-manifest.ba52a44ba35ad6a6b12911859e0bbd33.js",
     "service-worker.js": "/Ely_Flores/service-worker.js",
     "static/css/2.99a5358a.chunk.css.map": "/Ely_Flores/static/css/2.99a5358a.chunk.css.map",
-    "static/css/main.373fdd78.chunk.css.map": "/Ely_Flores/static/css/main.373fdd78.chunk.css.map",
-    "static/js/2.fe747f7f.chunk.js.LICENSE.txt": "/Ely_Flores/static/js/2.fe747f7f.chunk.js.LICENSE.txt",
+    "static/css/main.057eb596.chunk.css.map": "/Ely_Flores/static/css/main.057eb596.chunk.css.map",
+    "static/js/2.33c9f323.chunk.js.LICENSE.txt": "/Ely_Flores/static/js/2.33c9f323.chunk.js.LICENSE.txt",
+    "static/media/ElizabethFlores.pdf": "/Ely_Flores/static/media/ElizabethFlores.c7c734c8.pdf",
     "static/media/estilos.scss": "/Ely_Flores/static/media/bg.efa83c95.jpg",
-    "static/media/Styles.scss": "/Ely_Flores/static/media/walmart.3e8c28d1.png"
+    "static/media/bullying.png": "/Ely_Flores/static/media/bullying.5481cb77.png",
+    "static/media/burguer.png": "/Ely_Flores/static/media/burguer.97dd7aa0.png",
+    "static/media/rick&morty.png": "/Ely_Flores/static/media/rick&morty.01080801.png",
+    "static/media/triplife.png": "/Ely_Flores/static/media/triplife.68419786.png",
+    "static/media/walmart.png": "/Ely_Flores/static/media/walmart.3e8c28d1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4ab653be.js",
     "static/css/2.99a5358a.chunk.css",
-    "static/js/2.fe747f7f.chunk.js",
-    "static/css/main.373fdd78.chunk.css",
-    "static/js/main.2737d07d.chunk.js"
+    "static/js/2.33c9f323.chunk.js",
+    "static/css/main.057eb596.chunk.css",
+    "static/js/main.8c3c5fa7.chunk.js"
   ]
 }
