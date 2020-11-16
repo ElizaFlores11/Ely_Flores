@@ -62,20 +62,20 @@
 .tarjeta-wrap:hover .tarjeta{
     transform: rotateY(180deg);
 }
-.goCV{
+/*.goCV{
     display: block;
 }
 .dowCV{
     display: none; 
-}
+}*/
 
 @media screen and (max-width: 736px) {
-    .goCV{
+/*    .goCV{
         display: none;
     }
     .dowCV{
         display: block; 
-    }
+    }*/
     .tarjeta{
         width: 300px;
     }

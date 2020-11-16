@@ -6,6 +6,12 @@ import Burger from '../../img/Project/burguer.png';
 import Triplife from '../../img/Project/triplife.png';
 import Ricky from '../../img/Project/rick&morty.png';
 import Bullying from '../../img/Project/bullying.png';
+/*<div className="goCV" >
+            <!--<a href="./GoPdf" target="_blank" className="links">
+              <i class="fa fa-archive fa-3x"></i> CV
+              </a>-->
+            </div>*/
+            
 const Home = () =>{
   return (
   <Layout style={{ background: 'transparent' }}>
@@ -23,11 +29,6 @@ const Home = () =>{
                 <i class="fa fa-github-square fa-3x"></i>
             </a>
             <br/>
-            <div className="goCV" >
-            <a href="./GoPdf" target="_blank" className="links">
-              <i class="fa fa-archive fa-3x"></i> CV
-              </a>
-            </div>
             <div className="dowCV">
             <a href={require('../../docs/ElizabethFlores.pdf')} 
               id="upload"
