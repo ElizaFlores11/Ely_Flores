@@ -21,7 +21,9 @@ const Home = () =>{
       </span>
       <h1 className="animate__animated animate__bounce animate__delay-5s">Ely Flores</h1>
       <p>Desarrollador Web Front end</p>
-      <p>Soy Desarrolladora Frontend, apasionada por generar código, estoy en búsqueda de nuevos retos en el ámbito de TI, capaz de adaptarme a las situaciones, en mejora continua y curiosa por nuevos avances.</p>
+      <p>Realizo sistemas web, páginas web o adaptabilidad de los mismos, con nuevas tecnologías para un auto aprendizaje y con responsabilidad de las mismas. 
+        <br/>
+        Con metodología ágil para un mejor productividad de desarrollo.</p>
       <a href="https://www.linkedin.com/in/elyfloresg/" target="_black" className="links">
                 <i class="fa fa-linkedin-square fa-3x"></i>
             </a>       
